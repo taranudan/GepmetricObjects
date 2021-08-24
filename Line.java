@@ -18,7 +18,7 @@ public class Line {
 			System.err.println("The coordinates of both ends of the line are the same. This is not a line but a point.");
 		}
 		else {
-			this.startY = startY;
+		    this.startY = startY;
 		    this.startX = startX;
 		    this.endX   = endX;
 		    this.endY   = endY;
